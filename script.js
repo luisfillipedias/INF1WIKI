@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (localStorage.getItem('darkMode') === 'enabled') {
         body.setAttribute('data-theme', 'dark');
-        body.style.backgroundImage = "url('imagesp2/Cefetback-dark.jpg')"; 
+        body.style.backgroundImage = "url('imagesp2/Cefetback-dark1.jpg')"; 
     } else {
         body.setAttribute('data-theme', 'light');
         body.style.backgroundImage = "url('imagesp2/Cefetback.png')"; 
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 body.setAttribute('data-theme', 'dark');
                 localStorage.setItem('darkMode', 'enabled');
-                body.style.backgroundImage = "url('imagesp2 /Cefetback-dark.jpg')"; 
+                body.style.backgroundImage = "url('imagesp2 /Cefetback-dark1.jpg')"; 
             }
         });
     }
